@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+      <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+      <meta charset="UTF-8">
+      <title>Quiz MIASTA</title>
+    </head>
+
+    <body>
+      <div>
+        <h1>Quiz 'Miasta'</h1>
+      </div>
+
+      <div>
+        <div>
+        <h2 class="question"></h2>
+        </div>
+
+        <div id="buttonSet">
+            <div class="answers" id="button1" onclick="checkAnswer(button1)"></div>
+            <div class="answers" id="button2" onclick="checkAnswer(button2)"></div>
+            <div class="answers" id="button3" onclick="checkAnswer(button3)"></div>
+        </div>
+        <div id = "result">Weryfikator</div>
+
+      </div>
+      <div id = "nextQuestion" onclick="start()">Losuj pytanie</div>
+
+        <script src="script.js"></script>
+
+
+    </body>
+</html>
