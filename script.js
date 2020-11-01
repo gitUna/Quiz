@@ -22,8 +22,8 @@ var q6 = new Question('Które z miast leży najbliżej Genewy?', ['Nantes', 'Par
 
 function init(){
   resultDisplay.textContent = 'Weryfikator';
-    resultDisplay.style.background = 'rgba(255,255,255,0.2)';
-    resultDisplay.style.color = '#000';
+  resultDisplay.style.background = 'rgba(255,255,255,0.2)';
+  resultDisplay.style.color = '#000';
   document.getElementById('buttonSet').style = "pointer-events: auto";
   document.querySelector('#button1').style.background = '';
   document.querySelector('#button2').style.background = '';
@@ -44,7 +44,6 @@ function init(){
   }
   }
 }
-
 
 function checkAnswer(a){
   var q_no = eval('q' + rdnm);
