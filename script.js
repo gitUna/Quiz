@@ -14,7 +14,7 @@ var Question = function(content, array, correctA){
 
 //Questions
 var q1 = new Question('Które z miast leży najbliżej Wiednia?', ['Rzym', 'Bukareszt', 'Budapeszt'], 'Budapeszt');
-var q2 = new Question('Które z miast leży najbliżej Tbilisi?', ['Krasnodar', 'Ankara', 'Rzym'], 'Baku');
+var q2 = new Question('Które z miast leży najbliżej Tbilisi?', ['Krasnodar', 'Ankara', 'Rzym'], 'Krasnodar');
 var q3 = new Question('Które z miast leży najbliżej Wilna?', ['Kowno', 'Lublin', 'Białystok'], 'Kowno');
 var q4 = new Question('Które z miast leży najbliżej Kijowa?', ['Warszawa', 'Samara', 'Perm'], 'Warszawa');
 var q5 = new Question('Które z miast leży najbliżej Sewilli?', ['Lizbona', 'Malaga', 'Madryt'], 'Malaga');
